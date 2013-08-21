@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item android:id="@+id/action_next"
+          android:orderInCategory="2"
+          android:title="@string/next"
+          android:icon="@drawable/ic_launcher"
+          android:showAsAction="always"
+          android:onClick="onClickNext" />
+</menu>
+<!-- From: file:/Users/cowens/AndroidStudioProjects/TORnexto/TORnexto/src/main/res/menu/main.xml -->
